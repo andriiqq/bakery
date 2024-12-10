@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Кондитерська пекарня</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    
+    <header class="navigation">
+        <h1>
+            <img src="imag/Знімок екрана 2024-12-10 030321.png" alt="Логотип" class="logo">
+        </h1>
+        <div class="header-text">
+        </div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#products">Products</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </header>
+
+    
+    <div class="content">
+        <section id="home" class="home">
+            <h2>Ласкаво просимо до нашої пекарні</h2>
+        </section>
+
+        <section id="about" class="about">
+            <h2>Про нас</h2>
+            <div class="about-wrapper">
+              <p>Ми – пекарня, яка гордиться своєю традицією випікання смачних і ароматних виробів вже понад 20 років. Наші пекарі і кондитери використовують лише натуральні інгредієнти, щоб створювати бездоганні смаки, якими можна насолоджуватися кожного дня.</p>
+              <p>Наш асортимент включає не тільки класичний хліб і батони, але й унікальні десерти, які здивують навіть найвибагливіших клієнтів. Від ніжних круасанів до смачних тортів – кожен продукт ми створюємо з душею, щоб принести радість нашим відвідувачам.</p>
+              <p>Запрошуємо вас відвідати нашу пекарню, де ви зможете скуштувати свіжі та смачні вироби, виготовлені з любов'ю та турботою про кожного клієнта.</p>
+            </div>
+          </section>
+          
+
+        <section id="products" class="products">
+            <h2>Наші продукти</h2>
+
+            <div class="card-grid">
+                <div class="card">
+                    <div class="card-background" style="background-image: url('imag/1200_0_1679414791-6722.webp');"></div>
+                    <div class="card-category">Шоколадний Торт</div>
+                    <div class="card-details">
+                        <p>Інгредієнти: шоколад, яйця, цукор, борошно. Час приготування: 30 хвилин.Ціна: 400грн</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-background" style="background-image: url('imag/09aac602fd28a1ddae84433878b5afda.jpg');"></div>
+                    <div class="card-category">Масляний Круасан</div>
+                    <div class="card-details">
+                        <p>Інгредієнти: борошно, масло, цукор, сіль. Час приготування: 20 хвилин.Ціна: 21грн</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-background" style="background-image: url('imag/maxresdefault.jpg');"></div>
+                    <div class="card-category">Тірамісу</div>
+                    <div class="card-details">
+                        <p>Інгредієнти: маскарпоне, кави, печиво савоярді. Час приготування: 1 година.Ціна: 50грн</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-background" style="background-image: url('imag/a3f0c5983fe75a670a274c8fd2316941.jpg');"></div>
+                    <div class="card-category">Чізкейк</div>
+                    <div class="card-details">
+                        <p>Інгредієнти: борошно, яйця, крем. Час приготування: 30 хвилин.Ціна: 35грн</p>
+                </div>
+                </div>
+                <div class="card">
+                    <div class="card-background" style="background-image: url('imag/42hz5i---c1905x884x50px50p-up--adda402d2c221aedfb60f2e165cf1174.jpg');"></div>
+                    <div class="card-category">Еклери</div>
+                    <div class="card-details">
+                        <p>Інгредієнти: борошно, яйця, крем. Час приготування: 30 хвилин.Ціна: 15грн</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-background" style="background-image: url('imag/4kc3e3---c1905x884x50px50p-up--923f932fd4fd8ab49e32dd8ecd9df2a6.jpg');"></div>
+                    <div class="card-category">Хліб</div>
+                    <div class="card-details">
+                        <p>Інгредієнти: борошно, висівки, вода, сіль. Час приготування: 1 година.Ціна: 25грн</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-background" style="background-image: url('imag/41f84934-a3419a3bb5d7a822c9f12b3554e20835.jpg');"></div>
+                    <div class="card-category">Хліб гречаний</div>
+                    <div class="card-details">
+                        <p>Інгредієнти: гречане борошно, вода, сіль. Час приготування: 1 година.Ціна: 25грн</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-background" style="background-image: url('imag/635qqg---c1905x884x50px50p-up--3a8333934e829df1cb0c9b555135e9c3.jpg');"></div>
+                    <div class="card-category">Батон</div>
+                    <div class="card-details">
+                        <p>Інгредієнти: борошно, вода, сіль, дріжджі. Час приготування: 1 година.
+                            Ціна: 22грн</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="services-container">
+            <div class="service-card">
+                <div class="icon">
+                    <img src="imag/Знімок екрана 2024-12-10 042629.png" alt="Швидка доставка">
+                </div>
+                <h3>Швидка доставка</h3>
+            </div>
+            <div class="service-card">
+                <div class="icon">
+                    <img src="imag/Знімок екрана 2024-12-10 042619.png" alt="Тільки свіжі продукти">
+                </div>
+                <h3>Тільки свіжі продукти</h3>
+            </div>
+            <div class="service-card">
+                <div class="icon">
+                    <img src="imag/Знімок екрана 2024-12-10 042553.png" alt="Акції та знижки">
+                </div>
+                <h3>Акції та знижки</h3>
+            </div>
+            <div class="service-card">
+                <div class="icon">
+                    <img src="imag/Знімок екрана 2024-12-10 042647.png" alt="Професійність">
+                </div>
+                <h3>Професійність</h3>
+            </div>
+        </div>
+        
+      
+
+<body>
+    <div class="faq-container">
+        <h2>Часті запитання</h2>
+        <details class="faq-item">
+            <summary>Які страви готує наша пекарня?</summary>
+            <p>Ми готуємо різні види хліба, булочок, круасанів та інших випічок.</p>
+        </details>
+        <details class="faq-item">
+            <summary>Де знаходиться пекарня?</summary>
+            <p>Наша пекарня знаходиться у м.Острог вул. просп.Незалежності 60.</p>
+        </details>
+        <details class="faq-item">
+            <summary>Чи можна замовити доставку у нашій пекарні?</summary>
+            <p>Так, ми пропонуємо доставку для всіх замовлень від 200 грн.</p>
+        </details>
+        <details class="faq-item">
+            <summary>Як ми доставляємо Ваше замовлення?</summary>
+            <p>Ми доставляємо замовлення через кур'єрів або за допомогою служб доставки.</p>
+        </details>
+    </div>
+
+
+
+       
+
+        <section id="services" class="services">
+            <h2>Наші Послуги</h2>
+            <p>Ми пропонуємо широкий спектр послуг, щоб задовольнити всі ваші потреби:</p>
+            <ul>
+                <li><strong>Кейтеринг:</strong> Ми можемо забезпечити свіжу випічку та солодощі для ваших подій, від маленьких зустрічей до великих свят.</li>
+                <li><strong>Замовлення тортів:</strong> Створіть особливий день ще більш особливим з нашими виглядово привабливими та смачними тортами.</li>
+                <li><strong>Свіжа випічка щодня:</strong> Завітайте до нас щодня, щоб спробувати наші найсвіжіші продукти, включаючи хліб, круасани та чізкейки.</li>
+            </ul>
+        </section>
+    </div>
+
+    
+    <footer>
+        <div class="footer-container">
+            <div class="footer-about">
+                <h4>Про проєкт</h4>
+                <p>Наш проєкт переносить вас у світ ароматної випічки, смачних смаколиків та незабутніх гастрономічних історій. Приєднуйтесь до нашої спільноти любителів свіжого хліба та солодощів вже сьогодні!</p>
+            </div>
+          
+            <div class="footer-social">
+                <h4>Ми у соцмережах</h4>
+                <ul>
+                    <li><a href="https://facebook.com/yourproject" target="_blank">Facebook</a></li>
+                    <li><a href="https://twitter.com/yourproject" target="_blank">Twitter</a></li>
+                    <li><a href="https://instagram.com/yourproject" target="_blank">Instagram</a></li>
+                    <li><a href="https://youtube.com/yourproject" target="_blank">YouTube</a></li>
+                </ul>
+            </div>
+            <div class="footer-copyright">
+                <p>&copy; 2024 Кондитерська пекарня. Всі права захищені.</p>
+            </div>
+        </div>
+      </footer>
+      
+      
+</body>
+</html>
+
+  
